@@ -8,12 +8,11 @@ import {
   FaBootstrap,
 } from "react-icons/fa";
 import { DiNodejs, DiJavascript1 } from "react-icons/di";
-import { SiExpress, SiMongodb, SiPostman, SiVercel } from "react-icons/si";
+import { SiExpress, SiMongodb } from "react-icons/si";
 
 const Skills = ({ skill }) => {
   const icon = {
     Java: <FaJava />,
-    Postman: <SiPostman />,
     React: <FaReact />,
     Javascript: <DiJavascript1 />,
     Node: <DiNodejs />,
